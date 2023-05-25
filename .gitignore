@@ -2,3 +2,4 @@ node_modules/
 npm-dubug.log
 .DS_STORE
 /*.env
+.env
