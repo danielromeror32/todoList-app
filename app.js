@@ -15,9 +15,8 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-// mongoose.connect('mongodb+srv://daniel32:ZtzIxrxBLWaO47PZ@cluster0.dne67jt.mongodb.net/todolistDB');
 
-mongoose.connect(process.env.ATLAS_URL,{
+mongoose.connect(proces.env.ATLAS_URL,{
   useNewUrlParser: true,
   useUnifiedTopology: true
 }); 
